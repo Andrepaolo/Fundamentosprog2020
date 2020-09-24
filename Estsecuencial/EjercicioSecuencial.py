@@ -8,5 +8,13 @@ def CalcularpromedioNota():
   PC=(N1+N2+N3+N4)/4
   #Datos de salida
   print ("Su promedio es:",PC)
-
-CalcularpromedioNota()
+  
+def calcularpintado():
+ #datos de entrada 
+  CantM2=float(input("Ingrese la cantidad de M2 a pintar: ") )
+  CostM2=float(input("Ingrese precio del M2: "))
+  #Proceso 
+  Pc=CostM2*CantM2
+  #datos de salida
+  print ("El costo del pintado es:",Pc)
+calcularpintado()
