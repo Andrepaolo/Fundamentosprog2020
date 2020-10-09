@@ -1,10 +1,10 @@
 def becaperu():
     n1=float(input("Ingrese su promedio: ")) 
     edad=int(input("Ingrese la edad: ")) 
-    if n1>6:
+    if n1>5.99:
         if edad>18:
-         if n1<=9:
-            print("Usted tiene un bono de 2000 soles")
+            if n1>8.99:
+                print("Usted tiene un bono de 2000 soles")
             if 7.5<n1<9:
                 print ("Usted tiene un bono de 1000 soles") 
             if 5.99<n1<7.5:
