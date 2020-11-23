@@ -15,7 +15,7 @@ public class Ejercicio4 {
     System.out.print("La potencia es: "+ n1);
 
 }
-public static void main(String[] args ){
+public void main(String[] args ){
        
     Scanner teclado =new Scanner (System.in);
     System.out.print (" Ingrese la base: ");
@@ -27,12 +27,26 @@ public static void main(String[] args ){
     int potenciar=result.potenciax(n1,n2);
     result.imprimirpotencia(potenciar);
 }
-
-
-
-
+public void Respuesta4(){
+    Scanner teclado =new Scanner (System.in);
+    System.out.print (" Ingrese la base: ");
+    int n1= teclado.nextInt();
+    System.out.print (" Ingrese el exponente: ");
+    int n2= teclado.nextInt();
+     
+    Ejercicio4 result= new Ejercicio4();
+    int potenciar=result.potenciax(n1,n2);
+    result.imprimirpotencia(potenciar);
+   
+   }
 
 }
+
+
+
+
+
+
 
 
 

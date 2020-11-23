@@ -33,10 +33,10 @@ public class App {
             switch(numeroAlgoritmo){
                  case 1: numperf.Respuesta();;break;
                  case 2: tabla.Respuesta2();;break;
-                 case 3: poten.imprimirpotencia(5);;break;
+                 case 3: poten.Respuesta4();;break;
                  default : System.out.println("La opción que selecciono no existe"); 
             }
-            opcion=teclado.leer(' ', "Desea probar otras opciones? SI=S, NO=N");
+            opcion=teclado.leer(' ', " Desea probar otras opciones? SI=S, NO=N");
         }while(opcion=='S' || opcion=='s');
 
     }
