@@ -5,7 +5,7 @@ import java.io.Console;
 import pe.edu.upeu.apla.Examen.EjercicioNumPerfecto;
 import pe.edu.upeu.apla.utils.LeerTeclado;
 import pe.edu.upeu.apla.Examen.Ejerciciotablas;
-import pe.edu.upeu.apla.Examen.Ejercicio4;
+import pe.edu.upeu.apla.Examen.Ejercicioexponente;
 
 
 
@@ -15,7 +15,7 @@ public class App {
     static Ejerciciotablas tabla=new Ejerciciotablas();
     static LeerTeclado teclado=new LeerTeclado();
     static Console cons=System.console();
-    static Ejercicio4 poten=new Ejercicio4();
+    static Ejercicioexponente poten=new Ejercicioexponente();
     static void menuOpciones(){
 
         System.out.println( "*********************Bienvenidos al Sistema********************" );
@@ -24,9 +24,9 @@ public class App {
         int numeroAlgoritmo=1;
         do{
             String datos="Seleccion la opción que desea:\n"+
-            "1=Ejercicio1\n"+ 
-            "2=Ejercicio2\n"+
-            "3=Ejercicio3\n ";
+            "1=Primeros números perfectos\n"+ 
+            "2=Tablas de multiplicar\n"+
+            "3=Calcular Exponentes\n ";
 
 
             numeroAlgoritmo=teclado.leer(0, datos);

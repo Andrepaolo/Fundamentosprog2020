@@ -16,7 +16,7 @@ public class EjercicioNumPerfecto{
             }
             if (b==i)
                
-            System.out.println("elnum "+ i + " es perfecto");
+            System.out.println("el Número "+ i + " es perfecto");
        }
 
     }
@@ -35,7 +35,8 @@ public class EjercicioNumPerfecto{
             }
             if (b==i)
                
-            System.out.println("elnum "+ i + " es perfecto");
+            System.out.println("el Número "+ i + " es perfecto");
+
         }} 
 }
 
