@@ -1,0 +1,7 @@
+C:\Users\Tavo\source\repos\MarcacionFramework\MarcacionFramework\bin\Release\MarcacionFramework.exe.config
+C:\Users\Tavo\source\repos\MarcacionFramework\MarcacionFramework\bin\Release\MarcacionFramework.exe
+C:\Users\Tavo\source\repos\MarcacionFramework\MarcacionFramework\bin\Release\MarcacionFramework.pdb
+C:\Users\Tavo\source\repos\MarcacionFramework\MarcacionFramework\obj\Release\MarcacionFramework.csprojAssemblyReference.cache
+C:\Users\Tavo\source\repos\MarcacionFramework\MarcacionFramework\obj\Release\MarcacionFramework.csproj.CoreCompileInputs.cache
+C:\Users\Tavo\source\repos\MarcacionFramework\MarcacionFramework\obj\Release\MarcacionFramework.exe
+C:\Users\Tavo\source\repos\MarcacionFramework\MarcacionFramework\obj\Release\MarcacionFramework.pdb
