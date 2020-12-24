@@ -321,4 +321,6 @@ public int[][] transformada36(int dimen, int numInit){
 public static void main(String[] args) {
    Matrices mt=new Matrices(); 
    mt.ia.imprimirMatriz(mt.transformada06(5, 0));
-}}
+}
+
+}
