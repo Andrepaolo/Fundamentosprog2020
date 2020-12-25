@@ -56,6 +56,42 @@ public int[][] transformada08(int dimen, int numInit){
     }
     return matriz;
 }
+public int[][] transformada10(int dimen, int numInit){
+    int[][] matriz=new int[dimen][dimen];
+    
+     for(int fila=matriz.length-1; fila>=0;fila--){
+        for(int columna=dimen-1;columna>=0;columna--){
+           
+            if(columna<=fila){                            
+                matriz[fila][columna]= numInit;                                                                
+                numInit++;
+                
+            }else{
+               matriz[fila][columna]=-1; 
+            }
+        }
+        
+    }
+    return matriz;
+}
+public int[][] transformada12(int dimen, int numInit){
+    int[][] matriz=new int[dimen][dimen];
+    
+     for(int fila=0; fila<matriz.length;fila++){
+        for(int columna=matriz.length-1; columna>=0;columna--){
+           
+            if(columna>=fila){                            
+                matriz[fila][columna]= numInit;                                                                
+                numInit++;
+                
+            }else{
+               matriz[fila][columna]=-1; 
+            }
+        }
+        
+    }
+    return matriz;
+}
 public int[][] transformada16(int dimen, int numInit){
         int[][] matriz=new int[dimen][dimen];
         int contador=0;
@@ -164,41 +200,75 @@ public int[][] transformada24(int dimen, int numInit){
 }
 public int[][] transformada25(int dimen, int numInit){
     int[][] matriz=new int[dimen][dimen];
-    int columna=0;
-    for(int fila=0; fila<matriz[0].length;fila++)
-    {if(columna!=1){
-            for(columna=0;columna<dimen;columna++){
-                matriz[fila][columna]=numInit;
-                numInit++;}}
-            
-        else{
-            for(columna=dimen-1; columna>=0;columna--){
-                matriz[fila][columna]=numInit;
+    int fila=0;
+    for(int columna=0; columna<matriz[0].length;columna++){
+        if(fila!=5){
+            for(fila=0; fila<matriz.length;fila++){
+                matriz[columna][fila]=numInit;
+                numInit++;
+            }                        
+        }else{
+            for(fila=matriz.length-1; fila>=0;fila--){
+                matriz[columna][fila]=numInit;
+                numInit++;
+            }                      
+        } 
+    } 
+    return matriz;
+}
+public int[][] transformada26(int dimen, int numInit){
+    int[][] matriz=new int[dimen][dimen];
+    int fila=0;
+    for(int columna=0; columna<matriz[0].length;columna++){
+        if(fila!=-1){
+            for(fila=matriz.length-1; fila>=0;fila--){
+                matriz[columna][fila]=numInit;
+                numInit++;
+            }                        
+        }else{
+            for(fila=0; fila<matriz.length;fila++){
+                matriz[columna][fila]=numInit;
+                numInit++;
+            }                      
+        } 
+    } 
+    return matriz;
+}
+public int[][] transformada27(int dimen, int numInit){
+    int[][] matriz=new int[dimen][dimen];
+    int fila=0;
+    for(int columna=matriz[0].length-1; columna>=0;columna--){
+        if(fila!=-1){
+            for(fila=matriz.length-1; fila>=0;fila--){
+                matriz[columna][fila]=numInit;
                 numInit++;
             }
-            
-                        
+        }else{
+            for(fila=0; fila<matriz.length;fila++){
+                matriz[columna][fila]=numInit;
+                numInit++;
+            }            
         }        
     }
     return matriz;
 }
-public int[][] transformada26(int dimen, int numInit){
-int[][] matriz=new int[dimen][dimen];
-int columna=0;
-for(int fila=0; fila<matriz[0].length;fila++)
-{if(columna!=5){
-        for(columna=matriz.length-1; columna>=0;columna--){
-            matriz[fila][columna]=numInit;
-            numInit++;
-        }
-    }else{
-        for(columna=0; columna<matriz.length;columna++){
-            matriz[fila][columna]=numInit;
-            numInit++;
-        }            
-    }        
-}
-return matriz;
+public int[][] transformada28(int dimen, int numInit){
+    int[][] matriz=new int[dimen][dimen];
+    int fila=0;
+    for(int columna=matriz[0].length-1; columna>=0;columna--){
+        if(fila!=5){
+            for(fila=0; fila<matriz.length;fila++){
+                matriz[columna][fila]=numInit;
+                numInit++;
+            }                        
+        }else{
+            for(fila=matriz.length-1; fila>=0;fila--){
+                matriz[columna][fila]=numInit;
+                numInit++;
+            }                      
+        }        
+    }
+    return matriz;
 }
 public int[][] transformada29(int dimen, int numInit){
     int[][] matriz=new int[dimen][dimen];
