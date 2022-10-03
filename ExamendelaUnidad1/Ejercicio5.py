@@ -1,6 +1,6 @@
 def APLAalarioenaumentoAPLA():
     salary=int(input("Ingrese su sueldo: "))
-    años=int(input("¿Cuantos sueños trabajo? "))
+    años=int(input("¿Cuantos años trabajo? "))
     
     salary1=salary+0.1*salary
     salary2=salary1+0.1*salary1
@@ -13,6 +13,5 @@ def APLAalarioenaumentoAPLA():
     print("Tercer año gano: ", salary3)
     print("Cuarto año gano: ", salary4)
     print("Quinto año gano: ", salary5)
-    
     print("Su nuevo sueldo es: ", salary6)
 APLAalarioenaumentoAPLA()
